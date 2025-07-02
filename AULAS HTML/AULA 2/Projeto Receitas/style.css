@@ -1,0 +1,67 @@
+h1, h2, h3{
+    font-family: serif;
+}
+
+h1{
+    font-size: 150%;
+    border: 1px solid dedede;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    background-color: #fcdddd;
+    padding: 12px 20px 8px;
+    margin-bottom: 20px;
+    width: 35%;
+    
+}
+
+ul{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90%;
+    text-align: center;
+}
+
+h2{
+    border: 1px solid dedede;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: rgb(222, 222, 222);
+    border-right-color: rgb(222, 222, 222);
+    border-bottom-color: rgb(222, 222, 222);
+    border-left-color: rgb(222, 222, 222);
+    background-color: #f3f3f3;
+    padding: 12px 20px 8px;
+    margin-bottom: 20px;
+    width: 35%;
+}
+
+.ingredientes{
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+}
+    
+
+.item{
+    height: 30px;
+}
+
+.grid{
+    display: contents;
+    text-align: center;
+}
