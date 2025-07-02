@@ -1,0 +1,11 @@
+/* seletor de tag */
+
+p{
+    color: darkblue;
+    font-size: 30px;
+}
+
+h1, h2, h3{
+    color: green;
+}
+
