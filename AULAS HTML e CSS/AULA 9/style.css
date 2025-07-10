@@ -1,0 +1,59 @@
+/* Import de fontes */
+
+
+
+
+/* Reset de estilos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Declaração de Variavel */
+:root{
+    --cor-barraNavegacao-rodape: #1e1f22;
+    --cor-titulo-botao: #ffae00;
+    --cor-card: rgba(37,37,0.8);
+    --cor-texto: #ffffff;
+}
+
+/* Plano de fundo */
+body{
+    background-image: url(./materialCardapio/imagens/bg.png);
+    color: var(--cor-texto);
+}
+
+header{
+    background-color: var(--cor-barraNavegacao-rodape);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    margin: 10px;
+    list-style: none;
+}
+
+a{
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}

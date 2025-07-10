@@ -1,0 +1,21 @@
+header, footer{
+    background-color: rgb(211, 211, 211);
+}
+/* Espaçamento externo */
+main{
+    background-color: rgb(45, 45, 45);
+    margin: 15px 0px;
+}
+
+header, main, footer{
+    border: 5px solid black;
+}
+/* Espaçamento interno */
+header{
+    padding: 20px 40px;
+}
+
+footer{
+    margin: 15px 40px;
+    padding: 10px;
+}
