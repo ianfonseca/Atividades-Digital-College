@@ -1,9 +1,7 @@
-let num1 = prompt("Digite o primeiro número")
-let num2 = prompt("Digite o segundo número")
-
-num1 = Number(num1)
-num2 = Number(num2)
+let num1 = Number(prompt("Digite o primeiro número"))
+let num2 = Number(prompt("Digite o segundo número"))
 
 let soma = num1 + num2
 
-alert("A soma dos dois números é " + soma)
+alert("A soma dos dois números é: " + soma)
+console.log("A soma dos dois números é: " + soma)
