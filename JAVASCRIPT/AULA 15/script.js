@@ -30,8 +30,12 @@
 //     senhaDigitada = prompt('Digite a senha')
 // }
 
-let numero = 0
 
-while (numero%2 == 0 & numero <= 50){
+// para pares
+let numero = 1
+
+while (numero <= 50){
+    if(numero % 2 == 0)
     console.log(numero)
+    numero++
 }
