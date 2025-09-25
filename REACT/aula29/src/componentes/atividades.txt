@@ -1,0 +1,14 @@
+1) crie um componente chamado CardProduto.
+Esse componente deverá ter propriedades. Elas serão:
+    img -> link de uma imagem ou import de uma imagem interno
+    nome -> nome do produto que será utilizado em um h2
+    preço -> preço que será utilizado em um h3
+    descrição -> texto do produto
+
+use o componente 3x com conteudos diferentes no app
+
+2) crie um arquivo para estilizar o cardProduto
+aplique as classes aos elementos do cardProduto
+
+3) crie um componente chamado ContainerProdutos que possa receber como filhos elementos através do props.childrens, faça a estilização aplicando classes e importe no app.
+Utilize esse componente para agrupar os cardProdutos

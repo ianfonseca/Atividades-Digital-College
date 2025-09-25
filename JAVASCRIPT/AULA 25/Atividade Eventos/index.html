@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <h1 onmouseover="trocarTexto()">Lousa Mágica</h1>
+
+    <p>Clique nos botões para aplicar a cor a lousa mágica. Passe o mouse sobre a lousa para apagar a cor</p>
+
+    <div class="divLousa" onmouseover="resetar()"></div>
+    <div class="divBotoes">
+        <button id="vermelho" class="vermelho" onclick="red()">Vermelho</button>
+        <button id="azul" class="azul" onclick="blue()">Azul</button>
+        <button id="verde" class="verde" onclick="green()">Verde</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

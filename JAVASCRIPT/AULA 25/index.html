@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="titulo">Meu Título</h1>
+    
+    <button onclick="trocarCor()" onmouseover="trocarTexto()" onmouseout="resetar()">Clique aqui</button>
+
+    <form action="#">
+        <label for="coisa">Digite alguma coisa:</label>
+        <input type="text" name="" value="valor inicial input" id="coisa">
+    </form>
+
+    <script>
+        let titulo = document.querySelector('#titulo')
+        let botao = document.querySelector('button')
+        let inputCoisa = document.querySelector('#coisa')
+
+        console.log()
+
+        function mostrarNoConsole(){
+            console.log(mostrarNoConsole)
+            
+        }
+
+        function trocarCor(){
+            titulo.style.color = 'red'
+        }
+
+        function trocarTexto(){
+            titulo.innerHTML = 'Novo Titulo'
+        }
+
+        function resetar(){
+            titulo.innerHTML = 'Titulo Teste'
+        }
+
+
+
+    </script>
+
+</body>
+</html>
